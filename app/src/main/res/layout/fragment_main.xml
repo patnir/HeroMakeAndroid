@@ -19,7 +19,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/topBannerBar"
+                android:src="@drawable/top_banner_bary"
                 android:padding="0dp"
                 android:scaleType="fitStart" />
 
@@ -38,9 +38,9 @@
             android:layout_gravity="center"
             android:background="@drawable/hero_button"
             android:text="Came by accident"
+            android:id="@+id/btnAccident"
             android:textColor="#FAC740"
             android:drawableLeft="@drawable/lightning_icon"
-            android:drawableRight="@drawable/item_selected_btn"
             android:paddingLeft="5dp"
             android:paddingRight="10dp"
             />
@@ -54,10 +54,9 @@
             android:text="Genetic Mutation"
             android:textColor="#FAC740"
             android:drawableLeft="@drawable/atomic_icon"
-            android:drawableRight="@drawable/item_selected_btn"
             android:paddingLeft="5dp"
             android:paddingRight="10dp"
-            android:id="@+id/button1" />
+            android:id="@+id/btnGenetic" />
 
         <Button
             android:layout_marginTop="15dp"
@@ -68,10 +67,9 @@
             android:text="Born with it"
             android:textColor="#FAC740"
             android:drawableLeft="@drawable/rocket_icon"
-            android:drawableRight="@drawable/item_selected_btn"
             android:paddingLeft="5dp"
             android:paddingRight="10dp"
-            android:id="@+id/button2" />
+            android:id="@+id/btnBorn" />
 
         <Button
             android:layout_marginTop="20dp"
@@ -86,7 +84,7 @@
             android:paddingLeft="5dp"
             android:paddingRight="10dp"
             android:textSize="25dp"
-            android:id="@+id/button3" />
+            android:id="@+id/btnChoose" />
     </LinearLayout>
 
 </FrameLayout>
